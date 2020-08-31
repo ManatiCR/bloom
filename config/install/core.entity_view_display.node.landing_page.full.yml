@@ -1,15 +1,15 @@
 langcode: en
-status: false
+status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.teaser
+    - core.entity_view_mode.node.full
     - node.type.landing_page
   module:
     - user
-id: node.landing_page.teaser
+id: node.landing_page.full
 targetEntityType: node
 bundle: landing_page
-mode: teaser
+mode: full
 content:
   links:
     weight: 100
