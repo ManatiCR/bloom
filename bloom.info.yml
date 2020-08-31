@@ -1,0 +1,49 @@
+name: Bloom Install Profile
+type: profile
+description: 'A base Drupal install profile for Manati projects'
+core_version_requirement: '^8.8 || ^9'
+distribution:
+  name: Bloom
+install:
+  - big_pipe
+  - block
+  - block_content
+  - breakpoint
+  - ckeditor
+  - color
+  - config
+  - contextual
+  - datetime
+  - datetime_range
+  - dblog
+  - editor
+  - field
+  - field_ui
+  - file
+  - filter
+  - image
+  - inline_form_errors
+  - link
+  - media
+  - media_library
+  - menu_link_content
+  - menu_ui
+  - node
+  - options
+  - page_cache
+  - path
+  - path_alias
+  - rdf
+  - responsive_image
+  - system
+  - taxonomy
+  - telephone
+  - text
+  - toolbar
+  - update
+  - user
+  - views
+  - views_ui
+themes:
+  - bartik
+  - claro
