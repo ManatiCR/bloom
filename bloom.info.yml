@@ -23,6 +23,7 @@ install:
   - filter
   - image
   - inline_form_errors
+  - language
   - link
   - media
   - media_library
