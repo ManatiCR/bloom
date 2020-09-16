@@ -9,13 +9,11 @@ before_install:
   - cd ~
   - composer create-project drupal/recommended-project:^8.9 test-bloom --no-interaction
   - cd test-bloom
-  - composer install
   - composer config repositories.chirripo path $TRAVIS_BUILD_DIR
   - composer config extra.enable-patching true
   - composer require drush/drush
 before_script:
   - cd ~/test-bloom
   - composer require manaticr/bloom:"*"
-
 script:
   - ./vendor/bin/drush si bloom -y --db-url=sqlite://tmp/.ht.sqlite
