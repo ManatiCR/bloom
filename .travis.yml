@@ -16,4 +16,6 @@ before_install:
 before_script:
   - cd ~/test-bloom
   - composer require manaticr/bloom:"*"
+
+script:
   - ./vendor/bin/drush si bloom -y --db-url=sqlite://tmp/.ht.sqlite
