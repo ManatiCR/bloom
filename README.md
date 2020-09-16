@@ -1,4 +1,4 @@
-# Bloom Install Profile.
+# Bloom Install Profile [![Build Status](https://travis-ci.org/ManatiCR/bloom.svg?branch=8.x)](https://travis-ci.org/ManatiCR/bloom)
 
 A base Drupal install profile to scaffold Manatí projects.
 
