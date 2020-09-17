@@ -9,7 +9,7 @@ before_install:
   - cd ~
   - composer create-project drupal/recommended-project:^8.9 test-bloom --no-interaction
   - cd test-bloom
-  - composer config repositories.chirripo path $TRAVIS_BUILD_DIR
+  - composer config repositories.bloom path $TRAVIS_BUILD_DIR
   - composer config extra.enable-patching true
   - composer require drush/drush
 before_script:
